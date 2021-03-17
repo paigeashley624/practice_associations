@@ -6,4 +6,5 @@ class Meeting < ApplicationRecord
   validate :agenda, presence: true
   validate :location, presence: true
   validate :time, time: time.now #need to sort out if this is correct
+  # message: "Please fill out all fields "
 end

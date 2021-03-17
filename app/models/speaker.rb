@@ -5,4 +5,5 @@ class Speaker < ApplicationRecord
   validates :first_name, presence: true
   validates :last_name, presence: true
   validates :email, presence: true
+  # message: "Please fill out all fields "
 end
